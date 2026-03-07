@@ -1,0 +1,19 @@
+# Build outputs
+bin/
+obj/
+
+# User/IDE files
+.DS_Store
+*.user
+*.suo
+*.swp
+*.tmp
+.vscode/
+.idea/
+
+# Logs and local artifacts
+*.log
+/tmp/
+
+# Local environment settings (contains local secrets)
+appsettings.Development.json

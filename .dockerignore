@@ -1,0 +1,12 @@
+.git
+.gitignore
+bin
+obj
+*.user
+*.suo
+.DS_Store
+.vscode
+.idea
+README.md
+scripts
+*.log
