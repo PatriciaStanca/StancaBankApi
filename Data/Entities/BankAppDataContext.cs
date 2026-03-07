@@ -81,7 +81,7 @@ public class BankAppDataContext(DbContextOptions<BankAppDataContext> options) : 
     public void Seed(IPasswordService passwordService)
     {
         var seedAdminUsername = Environment.GetEnvironmentVariable("SEED_ADMIN_USERNAME") ?? "admin";
-        var seedAdminPassword = Environment.GetEnvironmentVariable("SEED_ADMIN_PASSWORD") ?? "ChangeMe_Admin123!";
+        var seedAdminPassword = Environment.GetEnvironmentVariable("SEED_ADMIN_PASSWORD") ?? "Admin123!";
 
         var admin = AuthUsers.FirstOrDefault(a =>
             a.Role.ToLower() == "admin" &&

@@ -86,7 +86,7 @@ dotnet run
 ## Seed admin (local/dev)
 - Username/password are seeded from environment variables:
   - `SEED_ADMIN_USERNAME` (default: `admin`)
-  - `SEED_ADMIN_PASSWORD` (default: `ChangeMe_Admin123!`)
+  - `SEED_ADMIN_PASSWORD` (default: `Admin123!`)
 - Set your own values before running:
 ```bash
 export SEED_ADMIN_USERNAME="admin"
